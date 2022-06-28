@@ -7,4 +7,3 @@ def open_file(file):
 
 file = 'https://raw.githubusercontent.com/Swashbuckler1/be_the_dell-ta/master/Dell_Interns_Directory.csv'
 df = pd.read_csv(file)
-print(df['TechnologiesOfInterest'].values[1])
