@@ -1,6 +1,6 @@
 FirstName,LastName,Gender,DellEmail,University,BusinessUnit,Degree,Major,Year,ReturningIntern,CampusLocation,TechnologiesOfInterest,TechnologiesUsing
 Ayushi,Batwara,Female,ayushi.batwara@dell.com,University of California - Berkeley,CSO,Masters,Marketing,Junior,N,Remote,Cloud,"Grid Computing , Virtualization , Artifical intelligence"
-Silvia,Lopez,Female,silvia.lopez@dell.com,Columbia University,CTO,Bachelors,Mechanical Engineering,Sophomore,N,Massachusets - Hopkinton,"Data engineering, Python, SQL,","Visualization , C , Big data"
+Silvia,Lopez,Female,silvia.lopez@dell.com,Columbia University,CTO,Bachelors,Mechanical Engineering,Sophomore,N,Massachusets - Hopkinton,"Data engineering, Python, SQL","Visualization , C , Big data"
 Wren,Wilson,Male,Wren.Wilson@dell.com,Duke University,CSG,MBA,Business,Senior,N,Texas - Round Rock,"bookeeping , packaging , advertising","Java , Cloud , Grid Computing"
 Kaleb,Walker,Male,Kaleb.Walker@dell.com,Middle Tennessee State University,CSG,Bachelors,Finance,Junior,N,California - Santa Clara,"automation , liabilities , blockchain","Virtualization , Networks , Python"
 Catherine,Gilbert,Female,Catherine.Gilbert@dell.com,Duke University,CTO,Bachelors,Mechanical Engineering,Senior,N,Washington - Seattle,"Instrumentation , Photonics , Computer aided design","programmable logic , Signal processing , Instrumentation"
