@@ -5,6 +5,7 @@ import os
 
 from matplotlib import projections
 from filtering_data import *
+from spacy_sim import pair_interns
 
 customtkinter.set_appearance_mode("Dark")  # Modes: "System" (standard), "Dark", "Light"
 customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
@@ -350,6 +351,11 @@ class ExampleApp(customtkinter.CTk):
             img = ImageTk.PhotoImage(image)
             label = tkinter.Label(master=self.frame_right, image=img)
             label.grid(row=i, column=0, padx=5, pady=10, sticky="ew")
+
+        def create_pairs(self):
+            pairs = pair_interns()
+            label = tkinter.Label(app, text=pairs, font=('Helvetica', 18))
+
 
 
 app = ExampleApp()
