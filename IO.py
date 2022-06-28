@@ -5,5 +5,7 @@ def open_file(file):
         terms = f.read().splitlines()
     return terms
 
-file = 'https://raw.githubusercontent.com/Swashbuckler1/be_the_dell-ta/master/Dell_Interns_Directory.csv'
-df = pd.read_csv(file)
+def read_data():
+    file = 'https://raw.githubusercontent.com/Swashbuckler1/be_the_dell-ta/master/Dell_Interns_Directory.csv'
+    df = pd.read_csv(file)
+    return df
